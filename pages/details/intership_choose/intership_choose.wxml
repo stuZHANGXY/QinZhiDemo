@@ -1,0 +1,29 @@
+<!--pages/details/intership_choose/intership_choose.wxml-->
+<view style="height: 60rpx;background-color: #50c14c;">
+<navigator url="/pages/shouye/internship/internship">
+        <text style="margin-right: 300rpx;margin-left: 29rpx;font-weight: bold;">×</text>
+        <text style="font-weight: bold;" >筛选</text>
+</navigator>
+</view>
+
+<view>
+<view style="margin-top: 30rpx;">
+<text style="margin-left: 29rpx;font-size: 39.51rpx;font-weight: bold;">实习时长（单选）</text>
+</view>
+
+<view class="box" hover-class="sx-hover" style="margin-top: 20rpx;">不限</view>
+<view class="box" hover-class="sx-hover">1个月</view>
+<view class="box" hover-class="sx-hover">2个月</view>
+<view class="box" hover-class="sx-hover" style="margin-top: 20rpx;">3个月</view>
+<view class="box" hover-class="sx-hover" style="margin-top: 20rpx;">4个月</view>
+<view class="box" hover-class="sx-hover" style="margin-top: 20rpx;">5个月及以上</view>
+</view> 
+
+
+
+
+
+<view class="wm" id="js_opr" >
+	<navigator class="qd" aria-role="button" url="javascript:;" style="background-color: #dcd9d9;margin-left: 50rpx;width: 200rpx;">清除</navigator>
+	<navigator class="qd" id="js_btn" aria-role="button" url="javascript:;" style="background-color: rgb(238, 179, 69);  width:300rpx;margin-left: 100rpx;">确定</navigator>
+</view>

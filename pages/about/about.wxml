@@ -1,0 +1,40 @@
+<!--pages/about/about.js.wxml-->
+<view class="weui-cells demo_badge_cells" >
+	<view aria-labelledby="b1_txt1" aria-describedby="b1_n1" class="weui-cell weui-cell_active" aria-role="option">
+				<view class="weui-cell__hd" aria-hidden="true">
+					<image src="/image/homepage.jpg" alt></image>
+				</view>
+				<view class="weui-cell__bd" aria-hidden="true" id="b1_txt1">
+					<text>联系人名称</text>
+					<view class="demo_badge_desc" style="font-size: 0.6rem;">电话号码12133123123</view>
+					<view class="demo_badge_desc">居住地|身份</view>
+				</view>
+	</view>
+
+<view style="height: 5vh ;width: 750rpx;background-color: #dcd9d9;"></view>
+
+<navigator aria-labelledby="js_p1m1_bd" class="weui-media-box weui-media-box_appmsg" url="/pages/details/shoucan/shoucan">
+		<view aria-hidden="true" id="js_p1m1_bd" class="weui-media-box__bd">
+					  <text class="weui-media-box__title" style="margin-left: 26rpx;">收藏</text>
+		</view>
+</navigator>
+
+<navigator aria-labelledby="js_p1m1_bd" class="weui-media-box weui-media-box_appmsg" url="/pages/details/shoucan/shoucan">
+		<view aria-hidden="true" id="js_p1m1_bd" class="weui-media-box__bd">
+					  <text class="weui-media-box__title" style="margin-left: 26rpx;">我做过的</text>
+		</view>
+</navigator>
+
+<navigator aria-labelledby="js_p1m1_bd" class="weui-media-box weui-media-box_appmsg" url="/pages/details/feedback/feedback">
+		<view aria-hidden="true" id="js_p1m1_bd" class="weui-media-box__bd">
+					  <text class="weui-media-box__title" style="margin-left: 26rpx;">反馈与帮助</text>
+		</view>
+</navigator>
+
+<navigator aria-labelledby="js_p1m1_bd" class="weui-media-box weui-media-box_appmsg" url="/pages/details/set/set">
+		<view aria-hidden="true" id="js_p1m1_bd" class="weui-media-box__bd">
+					  <text class="weui-media-box__title" style="margin-left: 26rpx;">设置</text>
+		</view>
+</navigator>
+
+</view>

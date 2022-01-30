@@ -1,0 +1,42 @@
+/* pages/shouye/internship/internship.wxss */
+@import '/pages/shouye/part-time/part-time.wxss';
+.shouye_top{
+  background-color:#50c14c ;
+  font-size: 35rpx;
+  margin-right: -2000rpx; /*  影响一行存放的内容长度 */
+  display: inline-block;
+   white-space: nowrap; /*nowrap表示不换行 */
+}
+.lead {
+  width: 50%;
+  height: 20rpx;
+  font-size: 35rpx;
+  line-height: 93rpx;
+  vertical-align: middle;
+  padding-left: 60rpx;
+  display: flex; 
+}
+.lead-hover{
+  font-weight: bold;
+}
+.txt{
+  margin-right: 43px;
+}
+page{
+  background:#dcd9d9;
+}
+
+.intershipbox{
+  background-color: #fff;
+}
+
+.saixuan{
+  align-items: center;
+  display: inline-block;
+  text-align: center;
+  height: 40rpx;
+  width: 80rpx;
+  background-color: #dcd9d9;
+  border-radius:30%;
+  color: gray;
+}

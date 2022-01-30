@@ -1,0 +1,26 @@
+/* pages/shouye/volunteer/volunteer.wxss */
+.shouye_top{
+  background-color:#50c14c ;
+  font-size: 35rpx;
+  margin-right: -2000rpx; /*  影响一行存放的内容长度 */
+  display: inline-block;
+   white-space: nowrap; /*nowrap表示不换行 */
+}
+.lead {
+  width: 50%;
+  height: 20rpx;
+  font-size: 35rpx;
+  line-height: 93rpx;
+  vertical-align: middle;
+  padding-left: 60rpx;
+  display: flex; 
+}
+.lead-hover{
+  font-weight: bold;
+}
+.txt{
+  margin-right: 43px;
+}
+page{
+  background:#dcd9d9;
+}

@@ -1,0 +1,46 @@
+/* pages/details/intership_choose/intership_choose.wxss */
+
+.box{
+  height: 55rpx;
+  width: 200rpx;
+  background-color: #dcd9d9;
+  border-radius: 25%;
+  text-align: center;
+  align-items: center;
+  font-size: 25rpx;
+  display: inline-block;
+  margin-left: 37.5rpx;
+}
+.sx-hover{
+  background-color: #fff;
+  border: 2px solid #50c14c ;
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+
+.qd{
+  position: relative;
+  display:inline-block;
+  margin-left:auto;
+  margin-right:auto;
+  padding:8px 24px;
+  box-sizing:border-box;
+  font-weight:700;
+  font-size:17px;
+  text-align:center;
+  text-decoration:none;
+  color:#000;
+  line-height:1.88235294;
+  border-radius:8px;
+}
+
+.wm{
+  height:100rpx ;
+  width: 750rpx;
+  position: fixed;
+  background-color: #fff;
+  margin-top: 20rpx;
+  bottom: 0rpx;
+  margin-bottom: 20rpx;
+}

@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/shouye/recommand/recommand",
+    "pages/details/intership_choose/intership_choose",
+    "pages/shouye/internship/internship",
+    "pages/shouye/special-events/special-events",
+    "pages/shouye/part-time/part-time",
+    "pages/about/about",
+    "pages/shouye/follow/follow",
+    "pages/shouye/volunteer/volunteer",
+    "pages/details/datail1/detail1",
+    "pages/details/feedback/feedback",
+    "pages/details/havedone/havedone",
+    "pages/details/set/set",
+    "pages/details/shoucan/shoucan"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/shouye/recommand/recommand",
+        "iconPath": "image/homepage3.jpg",
+        "selectedIconPath": "image/homepage2.jpg"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/about/about",
+        "iconPath": "image/mine3.jpg",
+        "selectedIconPath": "image/mine2.jpg"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#fff",
+    "backgroundColor": "#50c14c"
+  },
+  "window": {
+    "navigationBarTitleText": "青职",
+    "navigationBarBackgroundColor": "#dcd9d9",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

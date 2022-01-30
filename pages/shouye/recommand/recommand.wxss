@@ -1,0 +1,63 @@
+/* pages/shouye/recommand/recommand.wxss */
+.shouye_top{
+  background-color:#50c14c ;
+  font-size: 35rpx;
+  margin-right: -2000rpx; /*  影响一行存放的内容长度 */
+  display: inline-block;
+   white-space: nowrap; /*nowrap表示不换行 */
+}
+.lead {
+  width: 50%;
+  height: 20rpx;
+  font-size: 35rpx;
+  line-height: 93rpx;
+  vertical-align: middle;
+  padding-left: 60rpx;
+  display: flex; 
+}
+.lead-hover{
+  font-weight: bold;
+}
+.txt{
+  margin-right: 43px;
+}
+page{
+  background:#dcd9d9;
+}
+
+.pic{
+  border-radius: 15%;
+  margin-left: 29rpx;
+  height: 325rpx;
+  width: 434rpx;
+}
+
+.reswiper{
+  height: 340rpx;
+}
+
+.table{
+  display: inline-block;
+}
+
+.repic{
+  height: 107rpx;
+  width: 218rpx;
+  display: inline-block;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.name{
+  position:relative;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  /* align-items:flex-start; */
+} 
+.small {
+ 
+  color: var(--weui-FG-2);
+  font-size: 20.21rpx;
+
+  }

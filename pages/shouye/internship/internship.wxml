@@ -1,0 +1,65 @@
+<!--pages/shouye/internship/internship.wxml-->
+<scroll-view class="shouye_top" scroll-x="true" style="height: 93rpx;width: 750rpx;">
+<view class="lead">
+  <navigator url="../follow/follow" open-type="redirect" hover-class="lead-hover" class="txt">关注</navigator>
+  <navigator url="../recommand/recommand" open-type="switchTab" hover-class="lead-hover" class="txt">首页推荐</navigator>
+  <navigator url="../part-time/part-time" open-type="redirect" hover-class="lead-hover" class="txt">兼职</navigator>
+  <navigator url="../internship/internship" open-type="redirect" hover-class="lead-hover" class="txt" style="font-weight: bold;">实习</navigator>
+  <navigator url="../volunteer/volunteer" open-type="redirect" hover-class="lead-hover" class="txt">志愿</navigator>
+  <navigator url="../special-events/special-events" open-type="redirect" hover-class="lead-hover" class="txt" >特别活动</navigator> 
+</view>
+</scroll-view>
+
+<view class="intershipbox">
+	<view>
+  	<text style="font-size: 30.51rpx;margin-left: 16px;margin-right: 480rpx;text-decoration: underline;">选择</text>
+ 		<text style="font-size: 30rpx;">+添加条件</text>
+	</view>
+
+	<view style="font-size: 27.51rpx;">
+			<text style="margin-right: 10rpx;margin-left: 16rpx;">推荐</text>
+			<text style="margin-right: 450rpx;display: inline-block;">附近</text>
+			<navigator url="/pages/details/intership_choose/intership_choose"  style="display: inline-block;">
+					<view class="saixuan" style="font-size: 0.6rem;display: inline-block;">筛选</view>	
+		  </navigator>
+	</view>
+</view>
+
+
+
+<view class="outside">
+	<navigator class="box" url="/pages/details/datail1/detail1">
+					  	<text class="title">快递打包分拣</text>
+							<text class="salary">240/天</text>
+							<view class="type" style="font-size: 0.6rem;"> 男生</view>	
+							<view class="type" style="font-size: 0.6rem;"> 认真负责</view>	
+							<view class="type" style="font-size: 0.6rem;"> 听从安排</view>	
+							<text style="display: block;font-size: 0.7rem;margin-bottom: 10rpx;">短视频表演工作</text>
+				
+							<view class="name " >
+								<image class="pic" src="/image/homepage.jpg"  alt></image>
+								<text style="display: inline-block;font-size: 0.6rem;margin-right: 350rpx;">张先生</text>
+								<view class="smallfont" style="display: inline-block;">杭州博览中心</view>
+							</view>
+  </navigator>
+</view>
+
+
+<view class="outside">
+	<navigator class="box" url="/pages/details/datail1/detail1">
+					  	<text class="title">快递打包分拣</text>
+							<text class="salary">240/天</text>
+							<view class="type" style="font-size: 0.6rem;"> 男生</view>	
+							<view class="type" style="font-size: 0.6rem;"> 认真负责</view>	
+							<view class="type" style="font-size: 0.6rem;"> 听从安排</view>	
+							<text style="display: block;font-size: 0.7rem;margin-bottom: 10rpx;">短视频表演工作</text>
+				
+							<view class="name " >
+								<image class="pic" src="/image/homepage.jpg"  alt></image>
+								<text style="display: inline-block;font-size: 0.6rem;margin-right: 350rpx;">张先生</text>
+								<view class="smallfont" style="display: inline-block;">杭州博览中心</view>
+							</view>
+  </navigator>
+</view>
+
+

@@ -1,0 +1,21 @@
+{
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/shouye/recommand/recommand",
+        "iconPath": "image/homepage3.jpg",
+        "selectedIconPath": "image/homepage2.jpg"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/about/about",
+        "iconPath": "image/mine3.jpg",
+        "selectedIconPath": "image/mine2.jpg"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#fff",
+    "backgroundColor": "#50c14c"
+  }
+}

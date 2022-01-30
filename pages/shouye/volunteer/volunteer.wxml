@@ -1,0 +1,50 @@
+<!--pages/shouye/volunteer/volunteer.wxml-->
+<scroll-view class="shouye_top" scroll-x="true" style="height: 93rpx;width: 750rpx;">
+<view class="lead">
+  <navigator url="../follow/follow" open-type="redirect" hover-class="lead-hover" class="txt">关注</navigator>
+  <navigator url="../recommand/recommand" open-type="switchTab" hover-class="lead-hover" class="txt">首页推荐</navigator>
+  <navigator url="../part-time/part-time" open-type="redirect" hover-class="lead-hover" class="txt">兼职</navigator>
+  <navigator url="../internship/internship" open-type="redirect" hover-class="lead-hover" class="txt">实习</navigator>
+  <navigator url="../volunteer/volunteer" open-type="redirect" hover-class="lead-hover" class="txt" style="font-weight: bold;">志愿</navigator>
+  <navigator url="../special-events/special-events" open-type="redirect" hover-class="lead-hover" class="txt" >特别活动</navigator> 
+</view>
+ 
+</scroll-view>
+
+<navigator url="/pages/details/datail1/detail1">
+<view style="position: relative;">
+  <image src="/image/mine2.jpg" style="height: 279rpx;width: 693rpx;margin-left: 29rpx;margin-right: 29rpx;margin-bottom: 20rpx;"></image>
+</view>
+</navigator>
+
+
+<navigator url="/pages/details/datail1/detail1">
+<view style="position: relative;">
+  <image src="/image/mine2.jpg" style="height: 279rpx;width: 693rpx;margin-left: 29rpx;margin-right: 29rpx;margin-bottom: 20rpx;"></image>
+</view>
+</navigator>
+
+
+
+<navigator url="/pages/details/datail1/detail1">
+<view style="position: relative;">
+  <image src="/image/mine2.jpg" style="height: 279rpx;width: 693rpx;margin-left: 29rpx;margin-right: 29rpx;margin-bottom: 20rpx;"></image>
+</view>
+</navigator>
+
+
+
+<navigator url="/pages/details/datail1/detail1">
+<view style="position: relative;">
+  <image src="/image/mine2.jpg" style="height: 279rpx;width: 693rpx;margin-left: 29rpx;margin-right: 29rpx;margin-bottom: 20rpx;"></image>
+</view>
+</navigator>
+
+
+
+<navigator url="/pages/details/datail1/detail1">
+<view style="position: relative;">
+  <image src="/image/mine2.jpg" style="height: 279rpx;width: 693rpx;margin-left: 29rpx;margin-right: 29rpx;margin-bottom: 20rpx;"></image>
+</view>
+</navigator>
+

@@ -1,0 +1,95 @@
+<!--pages/shouye/recommand/recommand.wxml-->
+<scroll-view class="shouye_top" scroll-x="true" style="height: 93rpx;width: 750rpx;">
+<view class="lead">
+  <navigator url="../follow/follow" open-type="redirect" hover-class="lead-hover" class="txt" >关注</navigator>
+  <navigator url="../recommand/recommand" open-type="redirect" hover-class="lead-hover" class="txt" style="font-weight: bold;">首页推荐</navigator>
+  <navigator url="../part-time/part-time" open-type="redirect" hover-class="lead-hover" class="txt">兼职</navigator>
+  <navigator url="../internship/internship" open-type="redirect" hover-class="lead-hover" class="txt">实习</navigator>
+  <navigator url="../volunteer/volunteer" open-type="redirect" hover-class="lead-hover" class="txt">志愿</navigator>
+  <navigator url="../special-events/special-events" open-type="redirect" hover-class="lead-hover" class="txt" >特别活动</navigator> 
+</view>
+ 
+</scroll-view>
+
+
+<swiper indicator-dots="{{false}}" class="reswiper" next-margin="287rpx">
+  <swiper-item wx:for="{{ppt}}" wx:key="key" >
+    <view bindtap="f0" >
+      <image class="pic"  src="{{item.imagePath}}"></image>
+    </view>
+  </swiper-item>
+</swiper>
+
+
+	<navigator url="/pages/details/datail1/detail1">
+	<view class="name" style="width: 689rpx;height: 184rpx;background-color: #fff;margin-left: 29rpx;margin-bottom: 20rpx;margin-right: 29rpx;border-radius: 4%;">
+							<view>
+								<image class="repic" src="/image/homepage.jpg"  alt></image>
+								<view class="small" style="display:block;margin-left: 60rpx;">杭州博览中心</view>
+							</view>
+								<view >
+								<text style="display: inline-block;font-size: 30.51rpx;">活动招募|杀杀杀</text>
+								<text style="display: inline-block;font-size: 30.51rpx;">快来一起快乐的玩耍吧啵啵啵啵啵啵啵</text>
+							</view>
+	</view>
+	</navigator>
+
+
+
+
+	
+	<navigator url="/pages/details/datail1/detail1">
+	<view class="name" style="width: 689rpx;height: 184rpx;background-color: #fff;margin-left: 29rpx;margin-bottom: 20rpx;margin-right: 29rpx;border-radius: 4%;">
+							<view>
+								<image class="repic" src="/image/homepage.jpg"  alt></image>
+								<view class="small" style="display:block;margin-left: 60rpx;">杭州博览中心</view>
+							</view>
+								<view >
+								<text style="display: inline-block;font-size: 30.51rpx;">活动招募|杀杀杀</text>
+								<text style="display: inline-block;font-size: 30.51rpx;">快来一起快乐的玩耍吧啵啵啵啵啵啵啵</text>
+							</view>
+	</view>
+	</navigator>
+	
+
+	<navigator url="/pages/details/datail1/detail1">
+	<view class="name" style="width: 689rpx;height: 184rpx;background-color: #fff;margin-left: 29rpx;margin-bottom: 20rpx;margin-right: 29rpx;border-radius: 4%;">
+							<view>
+								<image class="repic" src="/image/homepage.jpg"  alt></image>
+								<view class="small" style="display:block;margin-left: 60rpx;">杭州博览中心</view>
+							</view>
+								<view >
+								<text style="display: inline-block;font-size: 30.51rpx;">活动招募|杀杀杀</text>
+								<text style="display: inline-block;font-size: 30.51rpx;">快来一起快乐的玩耍吧啵啵啵啵啵啵啵</text>
+							</view>
+	</view>
+	</navigator>
+
+
+
+	<navigator url="/pages/details/datail1/detail1">
+	<view class="name" style="width: 689rpx;height: 184rpx;background-color: #fff;margin-left: 29rpx;margin-bottom: 20rpx;margin-right: 29rpx;border-radius: 4%;">
+							<view>
+								<image class="repic" src="/image/homepage.jpg"  alt></image>
+								<view class="small" style="display:block;margin-left: 60rpx;">杭州博览中心</view>
+							</view>
+								<view >
+								<text style="display: inline-block;font-size: 30.51rpx;">活动招募|杀杀杀</text>
+								<text style="display: inline-block;font-size: 30.51rpx;">快来一起快乐的玩耍吧啵啵啵啵啵啵啵</text>
+							</view>
+	</view>
+	</navigator>
+
+
+	<navigator url="/pages/details/datail1/detail1">
+	<view class="name" style="width: 689rpx;height: 184rpx;background-color: #fff;margin-left: 29rpx;margin-bottom: 20rpx;margin-right: 29rpx;border-radius: 4%;">
+							<view>
+								<image class="repic" src="/image/homepage.jpg"  alt></image>
+								<view class="small" style="display:block;margin-left: 60rpx;">杭州博览中心</view>
+							</view>
+								<view >
+								<text style="display: inline-block;font-size: 30.51rpx;">活动招募|杀杀杀</text>
+								<text style="display: inline-block;font-size: 30.51rpx;">快来一起快乐的玩耍吧啵啵啵啵啵啵啵</text>
+							</view>
+	</view>
+	</navigator>
